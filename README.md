@@ -1,10 +1,6 @@
 # Furniture shop The Oak
 ![Captura de pantalla 2022-09-18 230455](https://user-images.githubusercontent.com/101753720/190939252-de800d69-745f-4c6b-8781-a9a72e0b60b6.png)
 
-## Introducción
-The Oak es un e-commerce que desarrollé durante el curso de React en CoderHouse, la interfaz de usuario esta desarrollada con React y maneja una base de datos y hosting de Firebase
-> Deploy : https://e-commerce-coderhouse-b0e54.web.app/
-
 
 ## Tecnologías
 
