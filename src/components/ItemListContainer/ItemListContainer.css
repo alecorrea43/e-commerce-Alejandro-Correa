@@ -1,0 +1,28 @@
+.title {
+  padding: 3rem;
+  padding-bottom: 0;
+  font-size: 25px;
+  margin-left: 12%;
+  text-decoration: underline;
+}
+
+.title-description {
+  padding-left: 3rem;
+  margin-left: 12%;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 800px) {
+  .title {
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .title-description {
+    text-align: center;
+    margin-left: 0;
+    padding-left: 0;
+  }
+}

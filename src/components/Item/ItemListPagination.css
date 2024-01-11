@@ -1,0 +1,25 @@
+.pagination-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 2rem;
+}
+
+.active-button {
+  background-color: #ffa13d;
+  padding: 6px 0.5rem 0 0.5rem;
+
+  border-radius: 5px;
+}
+
+.next-button {
+  color: #ff8b00;
+}
+
+.previous-button {
+  color: #ff8b00;
+}
+
+.pagination-disabled {
+  color: #808b96;
+}

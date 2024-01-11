@@ -1,0 +1,16 @@
+.filter-button-container {
+  text-align: left;
+  background-color: #e3e3e3;
+  border-radius: 15px;
+  padding: 0.5rem 1rem;
+  margin: 1rem 2rem 1rem 2rem;
+}
+
+.filter-button-container-active {
+  text-align: left;
+  background-color: #e3e3e3;
+  border-radius: 15px;
+  padding: 0.5rem 1rem;
+  margin: 1rem 2rem 1rem 2rem;
+  background-color: #ff8b00;
+}

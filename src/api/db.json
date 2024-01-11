@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Oak wood shelf with 11-place braces",
+      "category": "shelfs",
+      "price": 2000,
+      "img": "https://www.ikea.com/us/en/images/products/skutskaer-display-shelf-birch-plywood__1084426_pe859645_s5.jpg?f=xxs",
+      "stock": 0,
+      "description": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem",
+      "color": "red"
+    },
+    {
+      "id": 2,
+      "title": "White Chair",
+      "category": "chairs",
+      "price": 4000,
+      "img": "https://www.bainbridgemobility.co.uk/wp-content/uploads/Breydon-High-Seat-Chair-400x400.jpg",
+      "stock": 2,
+      "description": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem",
+      "color": "red"
+    },
+    {
+      "id": 3,
+      "title": "White Table",
+      "category": "tables",
+      "price": 5000,
+      "img": "https://artikalia.com/wp-content/uploads/2022/03/mesa-comedor-redonda-fija-madera-y-negro-2-400x400.jpg",
+      "stock": 3,
+      "description": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem",
+      "color": "red"
+    },
+    {
+      "id": 4,
+      "title": "White Desk",
+      "category": "desks",
+      "price": 6000,
+      "img": "https://www.ki.com/contentassets/0c9d592dafec44049f0d53d1a96d34ef/likha-casegoods_400x400px.jpg",
+      "stock": 4,
+      "description": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem",
+      "color": "red"
+    },
+    {
+      "id": 5,
+      "title": "White Closet",
+      "category": "closets",
+      "price": 2000,
+      "img": "https://www.ikea.com/mx/es/images/products/pax-closet-c-2-puertas-blanco-bergsbo-blanco__0096110_pe235587_s5.jpg?f=xxs",
+      "stock": 5,
+      "description": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem",
+      "color": "red"
+    },
+    {
+      "id": 6,
+      "title": "White Bed",
+      "category": "beds",
+      "price": 3000.0,
+      "img": "https://www.ikea.com/jo/en/images/products/idanaes-bed-frame-with-storage-dark-brown-loenset__0916074_pe784950_s5.jpg?f=xxs",
+      "stock": 6,
+      "description": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem",
+      "color": "red"
+    }
+  ]
+}

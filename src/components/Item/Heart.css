@@ -1,0 +1,75 @@
+.heart-false {
+  background-color: gray;
+  display: inline-block;
+  height: 10px;
+  margin: 0 10px;
+  position: relative;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 10px;
+}
+
+.heart-false:before,
+.heart-false:after {
+  content: "";
+  background-color: gray;
+  border-radius: 50%;
+  height: 10px;
+  position: absolute;
+  width: 10px;
+}
+
+.heart-false:before {
+  top: -6px;
+  left: 0;
+}
+
+.heart-false:after {
+  left: 6px;
+  top: 0;
+}
+
+.heart-false:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.heart-false:before,
+.heart-false:after {
+  background-color: inherit;
+}
+
+/*//////////////////////////////////////////////////////////*/
+.heart-true {
+  background-color: red;
+  display: inline-block;
+  height: 10px;
+  margin: 0 10px;
+  position: relative;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 10px;
+}
+
+.heart-true:before,
+.heart-true:after {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  height: 10px;
+  position: absolute;
+  width: 10px;
+}
+
+.heart-true:before {
+  top: -6px;
+  left: 0;
+}
+
+.heart-true:after {
+  left: 6px;
+  top: 0;
+}
+
+.heart-true:hover {
+  cursor: pointer;
+}

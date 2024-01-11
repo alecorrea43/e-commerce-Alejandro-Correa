@@ -1,0 +1,130 @@
+.background {
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.cart-background {
+  border: 1px solid #cccccc;
+  width: 60vw;
+  height: 100%;
+  margin: 2rem auto 0rem auto;
+  background-color: #ffff;
+  padding-bottom: 1rem;
+  box-shadow: 1px 1px 10px 1px #b7b7b7;
+}
+
+.cart-background-empty {
+  border: 1px solid #cccccc;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #cccccc;
+  width: 60vw;
+  height: 50vh;
+  margin: 2rem auto 0rem auto;
+  background-color: #ffff;
+  padding-bottom: 1rem;
+  box-shadow: 1px 1px 10px 1px #b7b7b7;
+}
+
+.cart-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 8rem;
+}
+.cart-details img {
+  width: 50px;
+}
+
+.cart-border {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  border-bottom: solid 1px #b7b7b7;
+}
+
+.cart-empty {
+  color: #ff8b00;
+  text-decoration: underline;
+}
+
+.cart-title {
+  border-bottom: 1px solid #b7b7b7;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-all {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+  .background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f2f2f2;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  .cart-background {
+    border: 1px solid #cccccc;
+    width: 100%;
+    height: 100%;
+    margin: 2rem auto 0rem auto;
+    background-color: #ffff;
+    padding-bottom: 1rem;
+    box-shadow: 1px 1px 10px 1px #b7b7b7;
+  }
+
+  .cart-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 11rem;
+  }
+
+  .cart-border {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    border-bottom: solid 1px #b7b7b7;
+  }
+
+  .cart-title {
+    border-bottom: 1px solid #b7b7b7;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding-bottom: 1rem;
+  }
+
+  .delete-all {
+    margin-top: 2rem;
+    margin-right: 1rem;
+  }
+
+  .cart-background-empty {
+    border: 1px solid #cccccc;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #cccccc;
+    width: 90%;
+    height: 50vh;
+    margin: 2rem auto 0rem auto;
+    background-color: #ffff;
+    padding-bottom: 1rem;
+    box-shadow: 1px 1px 10px 1px #b7b7b7;
+    font-size: 18px;
+  }
+}

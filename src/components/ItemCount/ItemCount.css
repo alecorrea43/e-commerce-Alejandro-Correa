@@ -1,0 +1,67 @@
+.contador {
+  display: flex;
+  flex-direction: column;
+}
+
+.sum {
+  margin-left: 1rem;
+  padding: 0rem 0.3rem;
+}
+
+.rest {
+  margin-right: 1rem;
+  padding: 0rem 0.3rem;
+}
+
+.button-buy {
+  border-radius: 5px;
+  padding: 0.3rem;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 0.7rem 2rem 0.7rem 2rem;
+  background-color: #ff8b00;
+  color: #ffff;
+  transition: background-color 0.3s ease-in-out;
+  width: 100%;
+}
+
+.button-buy:hover {
+  background-color: #cf7100;
+}
+
+.button-buy:disabled {
+  color: #e3e3e3;
+  background-color: gray;
+}
+
+.count-button {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-weight: bold;
+  gap: 1rem;
+}
+
+.no-stock {
+  color: #b6b6b6;
+  text-align: center;
+}
+
+.stock {
+  padding-top: 1rem;
+  margin-left: 0.5rem;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.stock-quantity {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
